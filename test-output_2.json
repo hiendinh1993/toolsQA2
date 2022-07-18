@@ -1,0 +1,326 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-17T11:01:54.063Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8100361000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.initTest()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Customer place an order by purchasing an item from search",
+        "description": "",
+        "id": "automated-end2end-tests;customer-place-an-order-by-purchasing-an-item-from-search;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 443000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.endTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 78703401000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on Home Page",
+            "match": {
+              "location": "stepDefinitions.HomePageSteps.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3230702000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "he search for \"dress\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dress",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.HomePageSteps.he_search_for(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7064100000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "choose to buy the first item",
+            "match": {
+              "location": "stepDefinitions.ProductPageSteps.choose_to_buy_the_first_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7873717000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "moves to checkout from mini cart",
+            "match": {
+              "location": "stepDefinitions.CartPageSteps.moves_to_checkout_from_mini_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1428803000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "enter \"Lakshay\" personal details on checkout page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lakshay\"",
+                  "offset": 6
+                }
+              ],
+              "location": "stepDefinitions.CheckoutPageSteps.enterPersonalDetailsOnCheckoutPage(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 835000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "select same delivery address",
+            "match": {
+              "location": "stepDefinitions.CheckoutPageSteps.select_same_delivery_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 554000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "select payment method as \"check\" payment",
+            "match": {
+              "arguments": [
+                {
+                  "val": "check",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinitions.CheckoutPageSteps.select_payment_method_as_payment(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 410019000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "place the order",
+            "match": {
+              "location": "stepDefinitions.CheckoutPageSteps.place_the_order()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@End2End"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-17T11:03:41.361Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2622403000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.initTest()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Customer place an order by purchasing an item from search",
+        "description": "",
+        "id": "automated-end2end-tests;customer-place-an-order-by-purchasing-an-item-from-search;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 302000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.endTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 80417948000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on Home Page",
+            "match": {
+              "location": "stepDefinitions.HomePageSteps.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4914814000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "he search for \"dress\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dress",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.HomePageSteps.he_search_for(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9066824000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "choose to buy the first item",
+            "match": {
+              "location": "stepDefinitions.ProductPageSteps.choose_to_buy_the_first_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11560771000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "moves to checkout from mini cart",
+            "match": {
+              "location": "stepDefinitions.CartPageSteps.moves_to_checkout_from_mini_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1830477000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "enter \"Virender\" personal details on checkout page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Virender\"",
+                  "offset": 6
+                }
+              ],
+              "location": "stepDefinitions.CheckoutPageSteps.enterPersonalDetailsOnCheckoutPage(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1628000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "select same delivery address",
+            "match": {
+              "location": "stepDefinitions.CheckoutPageSteps.select_same_delivery_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 631000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "select payment method as \"check\" payment",
+            "match": {
+              "arguments": [
+                {
+                  "val": "check",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinitions.CheckoutPageSteps.select_payment_method_as_payment(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1058140000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "place the order",
+            "match": {
+              "location": "stepDefinitions.CheckoutPageSteps.place_the_order()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@End2End"
+          }
+        ]
+      }
+    ],
+    "name": "Automated End2End Tests",
+    "description": "  Description: The purpose of this feature is to test End 2 End integration.",
+    "id": "automated-end2end-tests",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/functionalTest/End2End_Tests.feature",
+    "tags": [
+      {
+        "name": "@End2End",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
