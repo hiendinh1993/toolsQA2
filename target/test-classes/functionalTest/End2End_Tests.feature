@@ -12,6 +12,7 @@ Feature: Automated End2End Tests
     And select payment method as "check" payment
     And place the order
     Examples:
-      | customer |
-      | Lakshay  |
-      | Virender |
+      | customer     |
+      | Lakshay      |
+      | Virender     |
+      | GithubServer |
