@@ -1,6 +1,7 @@
 package stepDefinitions;
 
 import cucumber.TestContext;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import pageObjects.HomePage;
@@ -24,4 +25,19 @@ public class HomePageSteps {
         homePage.perform_Search(product);
     }
 
+    @When("he click on search icon")
+    public void heClickOnSearchIcon() {
+        homePage.clickOnSearchIcon();
+
+    }
+
+    @And("he input keyword {string}")
+    public void heInputKeyword(String keyword) {
+        homePage.setInputSearch(keyword);
+    }
+
+    @And("he press enter")
+    public void hePressEnter() {
+        homePage.clickEnter();
+    }
 }
