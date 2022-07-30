@@ -1,11 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: runners.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 432.064 s <<< FAILURE! - in runners.TestRunner
-Automated End2End Tests.Customer place an order by purchasing an item from search  Time elapsed: 124.658 s  <<< ERROR!
-java.util.NoSuchElementException: No value present
-	at java.base/java.util.Optional.get(Optional.java:143)
-	at dataProviders.JsonDataReader.getCustomerByName(JsonDataReader.java:40)
-	at stepDefinitions.CheckoutPageSteps.enterPersonalDetailsOnCheckoutPage(CheckoutPageSteps.java:21)
-	at ✽.enter "TryAgain02" personal details on checkout page(file:///Users/hien/IdeaProjects/toolsQA2/src/test/resources/functionalTest/End2End_Tests.feature:10)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 88.668 s - in runners.TestRunner

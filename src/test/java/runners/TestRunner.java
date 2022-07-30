@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(monochrome = true, glue = "stepDefinitions",
         plugin = {"pretty", "html:test-output_1",
                 "json:target/test-output_2.json"},
-        features = "src/test/resources/functionalTest", tags = "@SearchFunction and not @End2End")
+        features = "src/test/resources/functionalTest", tags = "@SearchFunction or @End2End")
 public class TestRunner {
 
 }

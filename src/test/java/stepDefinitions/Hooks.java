@@ -22,8 +22,8 @@ public class Hooks {
 
     @After
     public void endTest() {
-//        testContext.getWebdriverManager().getDriver().quit();
-//        driver.quit();
+        testContext.getWebdriverManager().getDriver().quit();
+        driver.quit();
     }
 
 }
